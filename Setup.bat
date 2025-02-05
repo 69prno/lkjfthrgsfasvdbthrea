@@ -8,8 +8,8 @@ if % errorLevel % neq 0(
 )
 
 :: Set the path to the executable
-set "exePath=C:\Program Files\Snippingtool\kdmapper.exe"
-set "driver1=driver.sys"
+set "exePath=C:\Program Files\Snippingtool\map.exe"
+set "driver1=RealtekHDAudioBus.sys"
 set "data=.data"
 
 :: Change to the directory where the executable is located
